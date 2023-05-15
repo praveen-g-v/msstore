@@ -5,14 +5,14 @@ import { setDoc, doc,onSnapshot,getDoc } from "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDUOGJwQCs53EQqiL5hgfX_oTrrmsTjtrE",
-  authDomain: "ms-store-e58cf.firebaseapp.com",
-  databaseURL: "https://ms-store-e58cf-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "ms-store-e58cf",
-  storageBucket: "ms-store-e58cf.appspot.com",
-  messagingSenderId: "1038425010642",
-  appId: "1:1038425010642:web:475aec495efdbc25dc980b",
-  measurementId: "G-W0GX9055RG"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 var data={};
