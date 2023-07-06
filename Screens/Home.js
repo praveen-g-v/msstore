@@ -1,11 +1,7 @@
 import React, { useState,useEffect } from "react";
 import {Text,View,FlatList,ListItem, TouchableOpacity,StyleSheet} from "react-native";
-import { SearchBar, } from "react-native-elements";
 import Entry from "./Entry";
 import { TextInput } from "react-native-gesture-handler";
-//import {app, db,firebaseConfig} from "firebase";
-//import {datas} from "./ShopData";
-//const datas=[{data:"Biscuit"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"},{data:"Tea Powder"},{data:"Milk"},{data:"Curd"},{data:"Rava"},{data:"Pot"}];
 const datas=[
     {
         data:"Biscuit",
@@ -145,6 +141,7 @@ const datas=[
 
 
 const Home =()=>{
+    console.log()
 const [search,setSearch]=useState("");
 const [data,setData]=useState([]);
 useEffect(()=>{
